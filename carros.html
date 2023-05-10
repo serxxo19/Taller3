@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro de Vehiculo</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	
+	<header>
+		<h1>Registro de Vehiculo</h1>
+	</header>
+	
+	<main>
+		<form>
+			<fieldset>
+				<legend>Información de Coche</legend>
+				<label for="userid">ID del vehiculo:</label>
+				<input type="text" id="carid" name="carid" required>
+				
+				<label for="movedto">Movido a:</label>
+				<select id="moved" name="moved">
+					<option value="">Seleccione una opción</option>
+					<option value="Gasolina">Gasolina</option>
+					<option value="Electricidad">Electricidad</option>
+				</select>
+
+                <label for="typecar">Tipo Coche:</label>
+				<select id="type" name="type">
+					<option value="">Seleccione una opción</option>
+					<option value="Deportivo">Deportivo</option>
+					<option value="Ejecutivo">Ejecutivo</option>
+                    <option value="Familiar">Familiar</option>
+					<option value="De carga">De carga</option>
+                    <option value="Convertible">Convertible</option>
+				</select>
+				
+                <label for="stateofcar">Estado:</label>
+				<select id="state" name="state">
+					<option value="">Seleccione una opción</option>
+					<option value="Nuevo">Nuevo</option>
+					<option value="Usado">Usado</option>
+				</select>
+
+                <label for="company">Marca:</label>
+				<select id="companyofcar" name="companyofcar">
+					<option value="">Seleccione una opción</option>
+					<option value="Renault">Renault</option>
+					<option value="Chevrolet">Chevrolet</option>
+                    <option value="Ferrari">Ferrari</option>
+					<option value="Bugatti">Bugatti</option>
+                    <option value="Jeep">Jeep</option>
+				</select>
+
+				
+				
+				<label for="model">Modelo:</label>
+				<input type="text" id="model" name="model" required>
+				
+				<label for="year">Año:</label>
+				<input type="text" id="year" name="year" required>
+				
+				<label for="detail">Detalle:</label>
+				<input type="text" id="detail" name="detail" required>
+				
+				<label for="engine">Motor:</label>
+				<input type="text" id="engine" name="engine" required>
+				
+				<label for="date">Fecha:</label>
+				<input type="date" id="date" name="date" required>
+				
+				<label for="cost">Precio:</label>
+				<input type="text" id="cost" name="cost" required>
+				
+				<label for="coin">Moneda:</label>
+				<input type="text" id="coin" name="coin" required>
+
+				<label for="descripcion">Descripción:</label><br>
+				<textarea id="descripcion" name="descripcion" rows="5" cols="30"></textarea><br>
+
+				<input type="submit" value="Registrarse">
+			</fieldset>
+		</form>
+	</main>
+	
+	<footer>
+		<p>© 2023 Derechos Reservados</p>
+	</footer>
+</body>
+</html>
